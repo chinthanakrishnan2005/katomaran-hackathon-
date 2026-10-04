@@ -1,0 +1,46 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Models and large files
+*.pt
+*.onnx
+*.weights
+
+# Application Data
+database/*.db
+database/*.db-journal
+!database/.gitkeep
+logs/events.log
+logs/entries/*
+!logs/entries/.gitkeep
+logs/exits/*
+!logs/exits/.gitkeep
+data/sample.mp4
+data/faces/*
+!data/faces/.gitkeep
+output/*
+!output/.gitkeep
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
